@@ -1,63 +1,165 @@
 {
-  "Version": 3,
-  "Coins": {
-    "Heads": [
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/coins/heads.png"
-    ],
-    "Tails": [
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/coins/tails.png"
-    ]
+  "output_size": {
+    "X": 450,
+    "Y": 220
   },
-  "Currency": [
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/currency/0.png",
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/currency/1.png",
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/currency/2.png",
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/currency/3.png"
-  ],
-  "Dice": [
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/dice/0.png",
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/dice/1.png",
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/dice/2.png",
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/dice/3.png",
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/dice/4.png",
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/dice/5.png",
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/dice/6.png",
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/dice/7.png",
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/dice/8.png",
-    "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/dice/9.png"
-  ],
-  "Rategirl": {
-    "Matrix": "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/rategirl/matrix.png",
-    "Dot": "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/rategirl/dot.png"
+  "User": {
+    "Name": {
+      "Color": "ffffff",
+      "Show": true,
+      "FontSize": 40,
+      "Pos": {
+        "X": 173,
+        "Y": 17
+      }
+    },
+    "Icon": {
+      "Show": true,
+      "Pos": {
+        "X": 67,
+        "Y": 17
+      },
+      "Size": {
+        "X": 92,
+        "Y": 92
+      }
+    },
+    "GlobalLevel": {
+      "Color": "ffffff",
+      "Show": true,
+      "FontSize": 26,
+      "Pos": {
+        "X": 292,
+        "Y": 171
+      }
+    },
+    "GuildLevel": {
+      "Color": "ffffff",
+      "Show": true,
+      "FontSize": 26,
+      "Pos": {
+        "X": 292,
+        "Y": 267
+      }
+    },
+    "GlobalRank": {
+      "Color": "ffffff",
+      "Show": true,
+      "FontSize": 26,
+      "Pos": {
+        "X": 320,
+        "Y": 203
+      }
+    },
+    "GuildRank": {
+      "Color": "ffffff",
+      "Show": true,
+      "FontSize": 26,
+      "Pos": {
+        "X": 323,
+        "Y": 298
+      }
+    },
+    "TimeOnLevel": {
+      "Format": "{0}d",
+      "Global": {
+        "Color": "ffffff",
+        "Show": true,
+        "FontSize": 26,
+        "Pos": {
+          "X": 284,
+          "Y": 144
+        }
+      },
+      "Guild": {
+        "Color": "ffffff",
+        "Show": true,
+        "FontSize": 26,
+        "Pos": {
+          "X": 285,
+          "Y": 358
+        }
+      }
+    },
+    "Xp": {
+      "Bar": {
+        "Show": true,
+        "Global": {
+          "Color": "f19e8e",
+          "PointA": {
+            "X": 28,
+            "Y": 235
+          },
+          "PointB": {
+            "X": 28,
+            "Y": 257
+          },
+          "Length": 346,
+          "Direction": 3
+        },
+        "Guild": {
+          "Color": "f19e8e",
+          "PointA": {
+            "X": 28,
+            "Y": 330
+          },
+          "PointB": {
+            "X": 28,
+            "Y": 352
+          },
+          "Length": 346,
+          "Direction": 3
+        }
+      },
+      "Global": {
+        "Color": "ffffff",
+        "Show": false,
+        "FontSize": 28,
+        "Pos": {
+          "X": 35,
+          "Y": 225
+        }
+      },
+      "Guild": {
+        "Color": "ffffff",
+        "Show": false,
+        "FontSize": 28,
+        "Pos": {
+          "X": 35,
+          "Y": 321
+        }
+      },
+      "Awarded": {
+        "Color": "ffffff",
+        "Show": false,
+        "FontSize": 0,
+        "Pos": {
+          "X": 445,
+          "Y": 347
+        }
+      }
+    }
   },
-  "Xp": {
-    "Bg": "https://cdn.discordapp.com/attachments/677400246581461002/759910641979883570/image0_1.png"
-  },
-  "Rip": {
-    "Bg": "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/rip/rip.png",
-    "Overlay": "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/rip/overlay.png"
-  },
-  "Slots": {
-    "Emojis": [
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/emojis/0.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/emojis/1.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/emojis/2.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/emojis/3.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/emojis/4.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/emojis/5.png"
-    ],
-    "Numbers": [
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/numbers/0.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/numbers/1.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/numbers/2.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/numbers/3.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/numbers/4.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/numbers/5.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/numbers/6.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/numbers/7.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/numbers/8.png",
-      "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/numbers/9.png"
-    ],
-    "Bg": "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/bg.png"
+  "Club": {
+    "Icon": {
+      "Show": true,
+      "Pos": {
+        "X": 196,
+        "Y": 67
+      },
+      "Size": {
+        "X": 21,
+        "Y": 21
+      }
+    },
+    "Name": {
+      "Color": "ffffff",
+      "Show": true,
+      "FontSize": 35,
+      "Pos": {
+        "X": 298,
+        "Y": 70
+      }
+    }
   }
 }
